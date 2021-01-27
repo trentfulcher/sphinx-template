@@ -1,5 +1,5 @@
-Sample Sphinx Project
-=====================
+Continuous Integration Project
+==============================
 
 Fill in  this text with your own intro text
 
@@ -9,5 +9,6 @@ Fill in  this text with your own intro text
 
    chapter1/index
    chapter2/index
+
 
 
