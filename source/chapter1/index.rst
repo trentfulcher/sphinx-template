@@ -1,11 +1,24 @@
 CAPSTONE Week 1 Write Up
 ========================
 
-On Wednesday, January 20th, I met with Professor Craven for 30 minutes to talk over the game plan for the coming Semester.  He walked me through what to expect for not only this semester, but this week as well. He gave me a detailed list to complete this week, which is the details are as follows.
+On Wednesday, January 20th, I met with Professor Craven for 30 minutes to talk
+over the game plan for the coming Semester.  He walked me through what to expect
+for not only this semester, but this week as well. He gave me a detailed list to
+complete this week, which is the details are as follows.
 
-On January 21st, I updated the Python I had on my home PC to 3.9.1. This took right at 22 minutes but wasn’t too bad as I already had Python on my system. I did have a couple of hiccups as I have not used it in quite some time so had to do several updates to bring it current.
+On January 21st, I updated the Python I had on my home PC to 3.9.1. This took
+right at 22 minutes but wasn't too bad as I already had Python on my system.
+I did have a couple of hiccups as I have not used it in quite some time so had
+to do several updates to bring it current.
 
-On Saturday, January 23rd, I did the bulk of my task list by creating a timesheet in excel, which took 13 minutes. I will utilize this to keep track of my time during this semester and will attach at the end to show the exact times spent. I installed Git, which only took 3 minutes as well as spending 36 minutes completing the first 5 tutorials. Introduction to Git commits, Branching in Git, Merging in Git, Rebase Introduction, Detach yo’ HEAD. I spent 39 minutes reading up on restructured text, which is the default plaintext markup language used by Sphinx.
+On Saturday, January 23rd, I did the bulk of my task list by creating a
+timesheet in excel, which took 13 minutes. I will utilize this to keep track of
+my time during this semester and will attach at the end to show the exact times
+spent. I installed Git, which only took 3 minutes as well as spending 36 minutes
+completing the first 5 tutorials. Introduction to Git commits, Branching in Git,
+Merging in Git, Rebase Introduction, Detach yo’ HEAD. I spent 39 minutes reading
+up on restructured text, which is the default plaintext markup language used by
+Sphinx.
 
 I also spent 27 minutes doing some research on unit tests utilizing the following link (https://realpython.com/python-testing/), which is one of the 4 write-ups Paul asked me to complete.
 
@@ -17,7 +30,7 @@ From there, I spent 18 minutes researching another assigned write-up which was�
 
 **How does PyTest work in Python?**
 
-PyTest furthers Unit Tests by supporting the execution of unittest test cases. The biggest advantage is the ability to write pytest test cases. These test cases are a series of functions in a Python file that start with the name "test_". PyTest supports the assert statement instead of being forced to use the special self.assert*() method. It supports filtering for test cases. It has the ability to rerun from the last test that failed. It also has hundreds of plugins that even further the functionality.
+PyTest furthers Unit Tests by supporting the execution of unittest test cases. The biggest advantage is the ability to write pytest test cases. These test cases are a series of functions in a Python file that start with the name "test\_". PyTest supports the assert statement instead of being forced to use the special self.assert*() method. It supports filtering for test cases. It has the ability to rerun from the last test that failed. It also has hundreds of plugins that even further the functionality.
 
 On Sunday, January 24th, I spent 39 minutes researching continuous integration which is another one of my write-ups this week. According to ATTLASIAN.
 “Continuous integration (CI) is the practice of automating the integration of code changes from multiple contributors into a single software project. It’s primary DevOps best practice, allowing developers to frequently merge code changes into a central repository where builds and tests then run. Automated tools are used to assert the new code’s correctness before integration.”
