@@ -34,12 +34,16 @@ Namely watching some YouTube videos like
 informative but did not work as I've learned that things run differently
 depending on the IDE, version, and programs being used.
 
-On Friday, January 29th, I spent another 1:29 researching Unit testing and PyTest from numerous sites online, as well as a couple Python books I own, trying to gain as much information and knowledge that I could in a short amount of time.
+On Friday, January 29th, I spent another 1:29 researching Unit testing and
+PyTest from numerous sites online, as well as a couple Python books I own,
+trying to gain as much information and knowledge that I could in a short amount
+of time.
 
 I wanted to get my feet wet so I created a sample test titled ``first_test.py``
-tilizing the following code..
+utilizing the following code..
 
 .. code-block:: python
+    :linenos:
 
     def func(x):
         return x + 5
@@ -57,20 +61,33 @@ is also when I got into the bulk of getting PyTest to work on my system.  I
 installed PyTest by entering "pip install -U pytest" into the command line.
 
 If you are using PyCharm, you can install it there as well. I kept getting the
-following error while entering "pytest first_test.py" into the command line.
+following error while entering "pytest first_test.py" into the command line::
+
+    ERROR: file or directory not found: first_test.py
 
 .. figure:: ../Images/TestFail.png
     :alt: some image
     :class: with-shadow
 
 I then did some more research into why the test was failing and installed PyTest
-for sphinx by entering the following into the command line: "pip install pytest-sphinx"
-I received a passing message on this so again ran the "pytest first_test.py" into the command line and received the same error above.
+for sphinx by entering the following into the command line:
+
+.. code-block:: python
+
+    pip install pytest-sphinx
+
+I received a passing message on this so again ran the "pytest first_test.py"
+into the command line and received the same error above.
 
 .. literalinclude:: ../Tests/first_test.py
    :linenos:
 
-From there, I started to feel defeated but did some more research online and learned that since I am using PyCharm, I could highlight my program, Right Click on it and click on the "Run 'pytest in first_test'" and it failed with the following error.
+From there, I started to feel defeated but did some more research online and
+learned that since I am using PyCharm, I could highlight my program, Right Click
+on it and click on the "Run 'pytest in first_test'" and it failed with the
+following error::
+
+    ERROR: file or directory not found: first_test.py
 
 .. figure:: ../Images/TestFail2.png
     :alt: some image
@@ -81,6 +98,7 @@ had planned. That's what we were looking for. I then went in and corrected my
 test with the following code and ran PyTest again.
 
 .. code-block:: python
+    :linenos:
 
     def func(x):
             return x + 5
@@ -94,9 +112,16 @@ This time, it passed. Yay me!
     :alt: some image
     :class: with-shadow
 
-It's truly amazing to learn just how minor changes here or there can make such a huge difference in coding. a missed close paren, a missed closing </div>, everything matters, and attention to detail is CRUCIAL. I spent nearly 3 hours this week researching PyTest and Unit Testing and it's such an amazing feeling trouble shooting and figuring things out. Getting code to work that you were struggling with is such a great feeling. I can't wait to see what this CAPSTONE has in for me over the coming months.
+It's truly amazing to learn just how minor changes here or there can make such
+a huge difference in coding. a missed close paren, a missed closing </div>,
+everything matters, and attention to detail is CRUCIAL. I spent nearly 3 hours
+this week researching PyTest and Unit Testing and it's such an amazing feeling
+trouble shooting and figuring things out. Getting code to work that you were
+struggling with is such a great feeling. I can't wait to see what this CAPSTONE
+has in for me over the coming months.
 
-I will continue to work on my Chapter issues and hope to have them figured out prior to my next meeting with Paul on Wednesday, February 3rd.
+I will continue to work on my Chapter issues and hope to have them figured out
+prior to my next meeting with Paul on Wednesday, February 3rd.
 
 .. figure:: ../images/TrentFulcherTimeSheetWeek2.png
     :alt: Excel Time Sheet
