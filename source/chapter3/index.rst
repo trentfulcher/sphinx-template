@@ -85,3 +85,53 @@ robust.
 As you have read above, pytest is not only easy to install, but is very robust
 and offers a huge set of features that can filter and optimize your test
 scripts. It also offers a very flexible plugin system that adds even more value.
+
+Week 3 Write Up
+---------------
+
+This week was interesting to say the least. I met with my professor for my
+weekly CAPSTONE meeting on February 3rd for 30 minutes.
+
+As stated above, this week I was tasked with providing details on how to get
+pytest to work on your system. It's pretty straightforward and I spent 2:40
+researching not only pytest, but also it's capabilities, and most importantly,
+how to get it to work.
+
+From there, I spent the vast majority of my time this week trying to get sphinx
+and python to work properly as I installed Node.js, and in doing so, I
+apparently changed a directory and PyCharm was no longer recognizing that I
+even had Python installed on my system. I spent 5:06 troubleshooting the
+following error::
+
+    No Python at 'C:\Users\Trent's PC\AppData\Local\Programs\Python\Python39\
+    python.exe'
+
+After much Googling, and a lot of YouTube, I finally had to waive the white flag
+and reach out to my professor for some help. After attempting to change the
+interpreter within PyCharm, I had to resort to uninstalling Python completely
+from my system (I had several versions installed). Once I uninstalled Python,
+and downloaded and reinstalled Python, everything worked as planned and I was
+able to close out this week's write-up and finish.
+
+Finally, I spent 20 minutes cleaning up my write-up and submitting it.
+
+This week was really eye-opening, and also VERY  frustrating as I could not
+for the life of me figure out what happened. I honestly still am not 100%
+certain what happened, but do know that it was working just fine, then when I
+installed Node.js along with Chocolatey that came with it, it quit working.
+
+The only thing I can think of is that while installing those programs for my
+Advanced Web Development course at Simpson College, it changed my path for
+where I had Python installed and the sphinx template could no longer reference
+it.
+
+As I come across more and more of these issues, it's good to know that with
+some hard work, and dedication, you can eventually get it figured out and carry
+on with your project. Keep your head down, stay focused, and good things will
+happen.
+
+.. figure:: ../images/TrentFulcherTimeSheetWeek3.png
+    :alt: Excel Time Sheet
+    :class: with-shadow
+
+    Week 3 Time Sheet
