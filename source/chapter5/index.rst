@@ -153,4 +153,3 @@ Week 5 Time Sheet
 .. figure:: /images/TrentFulcherTimeSheetWeek5.png
     :alt: Excel Time Sheet
     :class: with-shadow
-
