@@ -125,6 +125,6 @@ prior to my next meeting with Paul on Wednesday, February 3rd.
 
 Week 2 Time Sheet
 -----------------
-.. figure:: /images/TrentFulcherTimeSheetWeek2.png
+.. figure:: ../images/TrentFulcherTimeSheetWeek2.png
     :alt: Excel Time Sheet
     :class: with-shadow

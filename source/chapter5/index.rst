@@ -150,7 +150,7 @@ all of this to be second nature.
 
 Week 5 Time Sheet
 -----------------
-.. figure:: images/TrentFulcherTimeSheetWeek5.png
+.. figure:: ../images/TrentFulcherTimeSheetWeek5.png
     :alt: Excel Time Sheet
     :class: with-shadow
 
