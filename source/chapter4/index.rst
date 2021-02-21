@@ -381,8 +381,8 @@ and code don't need as elaborate testing as others. That will be the tricky
 part I believe. Not only figuring out HOW to test, but figuring out WHAT to
 test. It will be an Adventure, that's for sure!
 
+Week 4 Time Sheet
+-----------------
 .. figure:: ../images/TrentFulcherTimeSheetWeek4.png
     :alt: Excel Time Sheet
     :class: with-shadow
-
-    Week 4 Time Sheet

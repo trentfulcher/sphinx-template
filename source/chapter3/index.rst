@@ -130,8 +130,9 @@ some hard work, and dedication, you can eventually get it figured out and carry
 on with your project. Keep your head down, stay focused, and good things will
 happen.
 
+Week 3 Time Sheet
+-----------------
 .. figure:: ../images/TrentFulcherTimeSheetWeek3.png
     :alt: Excel Time Sheet
     :class: with-shadow
 
-    Week 3 Time Sheet

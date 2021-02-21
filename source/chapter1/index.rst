@@ -130,8 +130,8 @@ is, it’s amazing to see and learn just how things like this can be accomplishe
 There is code in almost everything we do, and I’d like to join the millions of
 programmers in knowing that we made life a little bit easier.
 
+Week 1 Time Sheet
+-----------------
 .. figure:: ../images/TrentFulcherTimeSheetWeek1.png
     :alt: Excel Time Sheet
     :class: with-shadow
-
-    Week 1 Time Sheet
