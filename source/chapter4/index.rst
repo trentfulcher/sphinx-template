@@ -383,6 +383,6 @@ test. It will be an Adventure, that's for sure!
 
 Week 4 Time Sheet
 -----------------
-.. figure:: ../images/TrentFulcherTimeSheetWeek4.png
+.. figure:: /images/TrentFulcherTimeSheetWeek4.png
     :alt: Excel Time Sheet
     :class: with-shadow
