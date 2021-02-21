@@ -381,7 +381,7 @@ and code don't need as elaborate testing as others. That will be the tricky
 part I believe. Not only figuring out HOW to test, but figuring out WHAT to
 test. It will be an Adventure, that's for sure!
 
-.. figure:: ../Images/TrentFulcherTimeSheetWeek4.png
+.. figure:: ../images/TrentFulcherTimeSheetWeek4.png
     :alt: Excel Time Sheet
     :class: with-shadow
 
