@@ -89,7 +89,7 @@ following error::
 
     ERROR: file or directory not found: first_test.py
 
-.. figure:: ../images/TestFail2.png
+.. figure:: /images/TestFail2.png
     :alt: some image
     :class: with-shadow
 
@@ -108,7 +108,7 @@ test with the following code and ran PyTest again.
 
 This time, it passed. Yay me!
 
-.. figure:: ../images/TestPass.png
+.. figure:: /images/TestPass.png
     :alt: some image
     :class: with-shadow
 
@@ -125,6 +125,6 @@ prior to my next meeting with Paul on Wednesday, February 3rd.
 
 Week 2 Time Sheet
 -----------------
-.. figure:: ../images/TrentFulcherTimeSheetWeek2.png
+.. figure:: /images/TrentFulcherTimeSheetWeek2.png
     :alt: Excel Time Sheet
     :class: with-shadow
