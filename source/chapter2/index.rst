@@ -108,7 +108,7 @@ test with the following code and ran PyTest again.
 
 This time, it passed. Yay me!
 
-.. figure:: ../images/TestPass.png
+.. figure:: ../Images/TestPass.png
     :alt: some image
     :class: with-shadow
 
@@ -123,7 +123,7 @@ has in for me over the coming months.
 I will continue to work on my Chapter issues and hope to have them figured out
 prior to my next meeting with Paul on Wednesday, February 3rd.
 
-.. figure:: ../images/TrentFulcherTimeSheetWeek2.png
+.. figure:: ../Images/TrentFulcherTimeSheetWeek2.png
     :alt: Excel Time Sheet
     :class: with-shadow
 
