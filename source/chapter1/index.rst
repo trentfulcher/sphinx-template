@@ -132,6 +132,7 @@ programmers in knowing that we made life a little bit easier.
 
 Week 1 Time Sheet
 -----------------
+
 .. figure:: /images/TrentFulcherTimeSheetWeek1.png
     :alt: Excel Time Sheet
     :class: with-shadow

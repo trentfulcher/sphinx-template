@@ -132,6 +132,7 @@ happen.
 
 Week 3 Time Sheet
 -----------------
+
 .. figure:: /images/TrentFulcherTimeSheetWeek3.png
     :alt: Excel Time Sheet
     :class: with-shadow
