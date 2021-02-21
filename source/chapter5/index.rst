@@ -14,38 +14,38 @@ https://learn.arcade.academy/labs/lab_06_text_adventure/adventure.html
 Sample Run:
 -----------
 
-You are in a dusty castle room.
-Passages lead to the north and south.
-What direction? n
+| You are in a dusty castle room.
+| Passages lead to the north and south.
+| What direction? n
 
-You are in the armory.
-There is a room off to the south.
-What direction? s
+| You are in the armory.
+| There is a room off to the south.
+| What direction? s
 
-You are in a dusty castle room.
-Passages lead to the north and south.
-What direction? s
+| You are in a dusty castle room.
+| Passages lead to the north and south.
+| What direction? s
 
-You are in a torch-lit hallway.
-There are rooms to the east and west.
-What direction? e
+| You are in a torch-lit hallway.
+| There are rooms to the east and west.
+| What direction? e
 
-You are in a bedroom. A window overlooks the castle courtyard.
-A hallway is to the west.
-What direction? w
+| You are in a bedroom. A window overlooks the castle courtyard.
+| A hallway is to the west.
+| What direction? w
 
-You are in a torch-lit hallway.
-There are rooms to the east and west.
-What direction? w
+| You are in a torch-lit hallway.
+| There are rooms to the east and west.
+| What direction? w
 
-You are in the kitchen. It looks like a roast is being made for supper.
-A hallway is to the east.
-What direction? w
+| You are in the kitchen. It looks like a roast is being made for supper.
+| A hallway is to the east.
+| What direction? w
 
-Can't go that way.
-You are in the kitchen. It looks like a roast is being made for supper.
-A hallway is to the east.
-What direction?
+| Can't go that way.
+| You are in the kitchen. It looks like a roast is being made for supper.
+| A hallway is to the east.
+| What direction?
 
 First Major bump in the road (or should I say Room)
 ---------------------------------------------------
