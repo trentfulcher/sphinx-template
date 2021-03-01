@@ -1,4 +1,41 @@
-class Room:
+And we traveled further towards our destination!!
+=================================================
+
+I met with Professor Craven on Wednesday, February 24th for around 25 minutes
+to go over my progress, and continue our path towards completion.  As we
+noticed last week, the Text Adventure game that I had created was not easily
+testable so I went back to the drawing board to re-write following Professor
+Cravens Lab 6: Text Adventure.
+
+It took me a little bit to wrap my head around the context and wrapping
+everything into a list item. My brain just wasn't going there. Once I met
+with Paul and he blessed me with that little kernal of knowledge, it was off
+to the races.
+
+Or so I thought...
+
+As I've stated throughout this project, my coding skills just aren't up to the
+level that I wish they were at.  This project is surely fine tuning those skills
+and I can't wait to see where they are in 2 months when this class ends.
+
+Anyways, I spent roughly 8 hours this week getting my text adventure game up
+and running as well as researching unit testing.  I had some issues trying
+to wrap my head around the context of the testing.  Do I put the tests in a
+separate file named tests.py, do I write my tests within the code of my game.
+
+That's the stuff that I am having issues with.  I have built some testing
+into my code with if statements, but it is not where it should be.  I will
+be setting up a meeting again with Paul prior to our meeting on Wednesday so I
+can hopefully get some more tests completed prior to Wednesday, where I will be
+meeting with him, going over next weeks assignment so to speak, and continuing
+down the path of testing and testing coverage.
+
+With that said, here is the progress I have made on my game..
+
+.. code-block:: python
+    :linenos:
+
+    class Room:
     """
     This is a class that represents a room.
     """
@@ -12,8 +49,8 @@ class Room:
         self.west = west
 
 
-"""Defining out main program."""
-def main():
+    """Defining out main program."""
+    def main():
 
     """Creating an empty array for the individual rooms to go into"""
     room_list = []
@@ -120,5 +157,21 @@ def main():
             print("That is an invalid selection, please try again")
 
 
-# Call (run) the main function
-main()
+    # Call (run) the main function
+    main()
+
+As you can see above, I have some tests built into some if statements, but have
+not quite wrapped my head around asserting errors, and fully testing. It is
+completely frustrating and is driving me insane. I have spent something like
+15 or 20 hours researching testing in Python, and I just can't seem to wrap my
+head around it.  I understand the big picture, like we need to ensure the user
+doesn't do anything silly, but just don't have the code knowledge to put my
+thoughts into action.  Hopefully that comes to fruition shortly and I am REALLY
+hoping I have an "aha" moment.
+
+Week 5 Time Sheet
+-----------------
+
+.. figure:: ../images/TrentFulcherTimeSheetWeek6.png
+    :alt: Excel Time Sheet
+    :class: with-shadow

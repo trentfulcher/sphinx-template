@@ -13,6 +13,8 @@ Below, you will find the steps I took, and the path I chose. Enjoy.
    chapter3/index
    chapter4/index
    chapter5/index
+   chapter6/index
+
 
 
 
