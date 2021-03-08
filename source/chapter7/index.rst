@@ -1,4 +1,49 @@
-class Room:
+Our Destination Awaits!!!
+=========================
+
+I met with my professor Paul Craven again on Monday, March 1st for 25
+minutes as I was having some issue with my code that I couldn't work out
+on my own.  I had some formatting off and Paul was able to walk me through it.
+
+On Tuesday, March 2nd, I spent some time working on my code for my Adventure
+game and made some progress. I created some tests but they were not operating
+correctly.  Looking back, I should have taken some screen shots and inserted
+my code within this write-up.  I will keep that in mind going forward to
+put my code in here to document my learning. Anyways, I again sat down with
+Paul on Wednesday the 3rd for our weekly CAPTSONE meeting.  We decided for me
+keep working on creating tests for my program, and ensuring that everything
+runs smoothly. Once complete, we can work onto more complex testing, as well
+as ensuring my game Adventures In Python has testing coverage.
+
+Throughout the rest of the week, and the weekend, I continued to work out
+kinks in my code, as well as adding some tests.  I do have to say this, finally
+figuring out code errors is an amazing feeling.  I spent several hours this
+week trying to figure out an error code I was getting.  Again, I should have
+copied it and inserted it here to document it. My bad.  Essentially,  when
+Paul and I updated my code on Monday and Wednesday, it broke another part
+of my code as I failed to change the name of a variable.  I could traverse
+between rooms, but the descriptions weren't changing.  I ended up getting
+it figured out and man, itt is such an amazing feeling figuring these
+things out and that feeling is happening more and more throughout this short
+time during this project.
+
+Anyways, you likely don't want to hear me babble so here is where I'm currently
+at with Adventures In Python.  It's come a long way.  You can now easily
+traverse between all of the rooms.  All rooms are acting accordingly. The user
+can hit Q or q to quit. If the user selects anything other than what is
+allowed, the user will get an error message.  Things are looking up.  I will
+continue to work on some tests.  Right now, I'm struggling thinking of anything
+other to test other than when the user wants to go north, are they actually
+going north.  You know, making sure all the directions and rooms are in the
+right order.  Other than that, I'm struggling to think of anything else to
+test.  I am sure I'll think of some and will add accordingly.
+
+Adventures In Python
+--------------------
+.. code-block:: python
+    :linenos:
+
+    class Room:
     # This is a class that represents a room.
 
     def __init__(self, description, north, south, east, west):
@@ -10,7 +55,7 @@ class Room:
         self.west = west
 
 
-class GameEngine:
+    class GameEngine:
     # This is a class that is used for testing the game
 
     def __init__(self):
@@ -85,8 +130,8 @@ class GameEngine:
         print()
 
 
-# Defining out main program.
-def main():
+    # Defining out main program.
+    def main():
 
     # Creating an empty array for the individual rooms to go into
     game_engine = GameEngine()
@@ -163,11 +208,63 @@ def main():
             game_engine.user_input_check()
 
 
-if __name__ == "__main__":
-    # Call (run) the main function
-    main()
+    if __name__ == "__main__":
+        # Call (run) the main function
+        main()
 
-# Add if's to a function to test to be able to test that function easily
-# def user_options
-# does it work if they put in fred
-# Did they actually move rooms
+    # Add if's to a function to test to be able to test that function easily
+    # def user_options
+    # does it work if they put in fred
+    # Did they actually move rooms
+
+My Test Code
+------------
+.. code-block:: python
+    :linenos:
+
+    import unittest
+    from room import Room
+    from room import GameEngine
+
+
+    class MyTestCase(unittest.TestCase):
+        def test_something(self):
+            self.assertEqual(True, True)
+
+
+    if __name__ == '__main__':
+        unittest.main()
+
+
+    # Function to test the navigation between rooms
+    def test_navigation():
+
+    # Testing directions traveled are correct
+    game_engine = GameEngine()
+    room = Room("testroom", 3, None, 1, None)
+    game_engine.room_list.append(room)
+    game_engine.go_north()
+    assert game_engine.current_room == 3
+
+    game_engine = GameEngine()
+    room = Room("testroom", None, None, 1, None)
+    game_engine.room_list.append(room)
+    game_engine.go_north()
+    assert game_engine.current_room == 0
+
+    game_engine = GameEngine()
+    room = Room("testroom1", 1, None, None, None)
+    game_engine.room_list.append(room)
+    room = Room("testroom2", None, 0, None, None)
+    game_engine.room_list.append(room)
+    game_engine.go_north()
+    assert game_engine.current_room == 1
+    game_engine.go_south()
+    assert game_engine.current_room == 0
+
+Week 7 Time Sheet
+-----------------
+
+.. figure:: ../images/TrentFulcherTimeSheetWeek7.png
+    :alt: Excel Time Sheet
+    :class: with-shadow
