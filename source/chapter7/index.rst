@@ -10,7 +10,7 @@ game and made some progress. I created some tests but they were not operating
 correctly.  Looking back, I should have taken some screen shots and inserted
 my code within this write-up.  I will keep that in mind going forward to
 put my code in here to document my learning. Anyways, I again sat down with
-Paul on Wednesday the 3rd for our weekly CAPTSONE meeting.  We decided for me
+Paul on Wednesday the 3rd for our weekly CAPSTONE meeting.  We decided for me
 keep working on creating tests for my program, and ensuring that everything
 runs smoothly. Once complete, we can work onto more complex testing, as well
 as ensuring my game Adventures In Python has testing coverage.
