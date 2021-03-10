@@ -20,7 +20,7 @@ def test_navigation():
     room = Room("testroom", 3, None, 1, None)
     game_engine.room_list.append(room)
     game_engine.go_north()
-    assert game_engine.current_room == 3
+    assert game_engine.current_room == 2
 
     game_engine = GameEngine()
     room = Room("testroom", None, None, 1, None)
